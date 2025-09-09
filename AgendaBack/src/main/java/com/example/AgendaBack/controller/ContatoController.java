@@ -58,9 +58,4 @@ public class ContatoController {
         return ResponseEntity.ok("Contato removido com sucesso");
     }
 
-    // GET - Health check
-    @GetMapping("/health")
-    public String healthCheck() {
-        return "API de Contatos está funcionando!";
-    }
 }
